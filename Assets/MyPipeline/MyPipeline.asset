@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 62a997faadda14c44ae17396b013dc19, type: 3}
+  m_Name: MyPipeline
+  m_EditorClassIdentifier: 
+  defaultStack: {fileID: 11400000, guid: e41734028f216af45ac9f60f1fd37f73, type: 2}
+  dynamicBatching: 0
+  instancing: 1
+  renderScale: 0.867
+  MSAA: 8
+  ditherTexture: {fileID: 2800000, guid: 2e5fd659aff5e824f8c0cf2eb7259bb3, type: 3}
+  ditherAnimationSpeed: 60.6
+  shadowMapSize: 1024
+  shadowDistance: 10
+  shadowFadeRange: 1
+  shadowCascades: 4
+  twoCascadesSplit: 0.25
+  fourCascadesSplit: {x: 0.067, y: 0.2, z: 0.467}
+  supportLODCrossFading: 0
+  allowHDR: 1
